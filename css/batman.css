@@ -1,54 +1,58 @@
-body{ background-color:black;}
-#cabeza{
-    background-color:black;
-}
-
-#descrip{
-  background-color: gray;
-  margin:0.5% -1.5% 0.5% 0px;
-  padding:10px 10px 5px 0px;
-}
-
-#sinopsis{
-   margin:0.3% 0 0 0;
-   background-color: silver;
-}
-
-li{
-  list-style:none;
-  margin:5px 30% 0px 30%; 
-  text-align: center;
-}
-
-h1{
-  font-family: 'Oswald', sans-serif;
-}
-
-h2{
-  font-family: 'Oswald', sans-serif;
-  text-align: center;
-  color:black;
-  padding-left:8%;
-}
-#lista{
-  background-color: rgb(243, 159, 0);
-  padding:2% 2% 2% 0%;
-  margin:0% 1% 0% 1%;
+.about-me ul li{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    list-style-type:none;
   }
-#trailer{
-  margin:2% 0% 0% 3%;
-}
-ul{  margin:4% 0px 0px 0px;}
+  
+  .postsleft {
+    width: 300px;
+    float: left;
+  }
+  
+  
+  p.home {
+    margin-left:21px !important;
+    padding-right:24px !important;
+  }
+  
+  h3.post-title-home {
+    margin-left:21px !important;
+    padding-right:24px !important;
+  }
+  
 
-A:link {text-decoration:none;color:grey;} 
-A:visited {background-color:grey;color:#000;} 
-A:active {text-decoration:none;color:#0000;} 
-A:hover {background-color:red;padding:0% 5% 0% 5%;color:white;} 
+  .postsright {
+    width: 600px;
+    float: right; 
+    top: -100px;
+  }
+  .postsleft {
+    width: 620px;
+    float: right; 
+  }
+  
+  p.home {
+    margin-left:21px !important;
+    padding-right:24px !important;
+  }
+  
+  h3.post-title-home {
+    margin-left:21px !important;
+    padding-right:24px !important;
+  }
 
-#hTrailer{
-  color:white;
-}
-
-#content{
-  margin:0 5% 0 5%;
-}
+  .boton {
+    border: 2px solid #DD110D; 
+    padding: 10px; 
+    background-color: #DD110D; 
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase; 
+    font-family: 'Roboto', sans-serif;
+    border-radius: 50px;
+    position: relative; 
+    top:-500px;
+    }
+  
+    
