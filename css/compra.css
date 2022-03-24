@@ -32,8 +32,8 @@
   
   .widget {
     width: 100%;
-    max-width: 250px;
-    height: 380px;
+    max-width: 350px;
+    height: 480px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     background-color: #fff;
     border-radius: 4px;
@@ -81,6 +81,7 @@
     background-color: #DD110D; 
     border-color: #DD110D; 
     color: #fff;
+    width: 100%;
   }
   
   .widget__name {
