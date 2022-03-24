@@ -1,47 +1,30 @@
-.about-me ul li{
-    width: 960px;
-    margin: 0 auto;
-    overflow: hidden;
-    list-style-type:none;
+.well {
+    margin: 40px;
   }
   
-  .postsleft {
-    width: 300px;
-    float: left;
+  h1 {
+    font-family: "Georgia";
+    font-size: 5.0em;
   }
   
-  
-  p.home {
-    margin-left:21px !important;
-    padding-right:24px !important;
+  h2 {
+    font-size: 36px;
+    margin-bottom: 60px;
+    font-family: "Times New Roman"
   }
   
-  h3.post-title-home {
-    margin-left:21px !important;
-    padding-right:24px !important;
-  }
-  
+  p {
 
-  .postsright {
-    width: 600px;
-    float: right; 
-    top: -100px;
-  }
-  .postsleft {
-    width: 620px;
-    float: right; 
-  }
-  
-  p.home {
-    margin-left:21px !important;
-    padding-right:24px !important;
-  }
-  
-  h3.post-title-home {
-    margin-left:21px !important;
-    padding-right:24px !important;
-  }
+    font-size: 1.5em;
+    padding: 30px;
+    margin-bottom:auto;
+    color: #163F64;
 
+  }
+  .rowwell{
+      display: flex;
+
+  } 
   .boton {
     border: 2px solid #DD110D; 
     padding: 10px; 
@@ -52,7 +35,8 @@
     font-family: 'Roboto', sans-serif;
     border-radius: 50px;
     position: relative; 
-    top:-500px;
+    bottom:170px;
+    right: -600px;
     }
   
     
